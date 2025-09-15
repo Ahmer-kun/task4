@@ -1,0 +1,349 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    /*display: flex;
+    flex-direction: column;
+    /*margin: 50px 50px 100px 50px;
+    padding: 0px 0px 20px 0px;*/
+    background: #fff;
+    color: black;
+}
+
+
+b {
+  border: 20px black solid;
+  opacity:0.7;
+  background-color: black;
+}
+
+* {
+
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+/*
+#home h2 {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 350px;
+   
+}
+   */
+.project-header {
+  
+  padding: 30px 0px 0px 0px;
+  /*text-decoration: underline;*/
+  border-bottom: 1px groove rgb(41, 40, 40);
+	
+}
+
+.logo {
+	position: fixed;
+	float: left;
+	transition: .5s;
+    cursor: crosshair;
+b{
+  background-color: white;
+  border: 10px white solid;
+  
+}
+  }
+
+.logo a:hover, 
+.logo a.active {
+	color: #0ef;
+}
+/*This is Nav Bar*/
+.navbar a {
+    font-size: 27px;
+    color: black;
+    margin-left: 10px;
+    transition:.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0ef;
+}
+
+
+/*
+nav {
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+
+}
+*/
+
+header a {
+
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-left: 5px;
+  b{
+    font-weight: 700;
+  }
+}
+/*
+.about {
+  
+    border: 4px solid red; 
+    margin: 50px 50px 50px 50px;
+    padding: 0px 20px 10px 20px;
+	background-image: url('Placeholder5.jpg');
+
+}
+*/
+
+h3 {
+  color: rgb(224, 206, 224);
+  text-align: auto;
+  font-size: 20px;
+
+}
+/*
+.article, img, a {
+  align-items: center;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.about p {
+  text-align: center;
+  color:#fff;
+  margin-top: 5px;
+}
+*/
+h1 {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.navbar a:hover, a:active {
+    background-color: #00eeff;
+}
+.btn:hover {
+    box-shadow: none;
+}
+
+img {
+  background-color: black;
+  
+}
+
+        
+
+.contact .contact-form{
+
+     margin: 100px 400px 100px 150px;
+    padding: 0px 20px 10px 20px;
+    text-align: center;
+    border: 4px solid blue;
+    background-image: url('Placeholder2.jpg');
+    
+}
+
+ 
+
+
+        footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px 9%;
+    background: #323946;
+    text-align: center;
+}
+    footer a {
+      color:#00eeff
+    }
+/*	
+	.bx-up-arrow-alt {
+		font-family: 'Boxicons';
+		
+		}
+		display dikhata hy element display kaise hy page mei
+		.footer-iconTop a i {
+			border: 10px #fff solid;
+			float: right;
+			font-size: 20px;
+			color: #fff; 
+			
+			
+}*/
+
+
+/*.project-container {
+   /* margin-top: 5px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background: white;
+}
+    */
+
+
+   /* Projects */
+    .project-container {
+      padding: 50px 30px;
+    }
+
+    .project-header h2 {
+      /*border-bottom: 2px solid #333;*/
+      display: block;
+      padding-bottom: 8px;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .project-item {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-item img {
+      width: 100%;
+      display: block;
+      border-radius: 6px;
+    }
+
+    .project-label {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: black;
+      color: white;
+      padding: 4px 8px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+     /* About */
+    .about {
+      padding: 50px 30px;
+      /*background: #f5f5f5;*/
+    }
+
+    .about h2 {
+      text-align: auto;
+      margin-bottom: 20px;
+      border-bottom: 1px groove rgb(41, 40, 40);
+      padding-bottom: 8px;
+    }
+
+    .about > p {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+      color: #333;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .about-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .about-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .about-card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .about-card .role {
+      color: gray;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .about-card p {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .about-card button {
+      margin-top: 10px;
+      background: black;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: 0.3s;
+    }
+
+    .about-card button:hover {
+      background: #0ef;
+      color: black;
+    }
+
+    .contact-container {
+      padding: 50px 30px;
+    }
+
+    .contact-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form label {
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    .contact-form button {
+      margin-top: 20px;
+      background: black;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #0ef;
+      color: black;
+    }
