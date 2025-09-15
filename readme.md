@@ -4,3 +4,16 @@
     Your Text Here
   </div>
 </div>
+
+
+<footer>
+    <p>Powered by w3.css</p>
+  </footer>
+
+   footer {
+      background: #323946;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
