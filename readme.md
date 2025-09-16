@@ -17,3 +17,14 @@
       padding: 20px;
       margin-top: 40px;
     }
+
+
+IMP
+
+.message {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
